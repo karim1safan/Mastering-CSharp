@@ -1,4 +1,16 @@
-﻿// 1. Declaration [ <DateType> <Identifier>; ]
+/*
+    EP: 003
+    Types and References VS. Value
+    - Declaration
+    - Intialization
+    - Assignment
+    - Integer Value Type
+    - String Value Type
+    - Stack VS. Heap
+    - String Concatenation
+*/
+
+// 1. Declaration [ <DateType> <Identifier>; ]
 int num;
 
 // 2. Assignment [ <Identifier> = <Value>; ]
