@@ -1,4 +1,16 @@
-﻿bool isVip = true;
+/*
+    EP: 004
+    Boolean Type and Operator
+    - Expression
+    - Equality Operators
+    - Comparision Operators
+    - Equality and Ref. Type
+    - Conditional Operator
+    - Short Circit && ||
+    - Ternary Operator
+*/
+
+bool isVip = true;
 // bool isVip2 = 1; // ERROR
 
 int x = 10; // assignment 10 to variable x
