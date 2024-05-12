@@ -57,18 +57,7 @@ namespace Methods
 
             foreach(var e in emps)
             {
-                var salary = e.Wage * e.LoggedHours;
-                var taxAmount = salary * Employee.TAX;
-                var netSalary = salary - (taxAmount);
-
-                Console.WriteLine($"\nFirst Name: {e.Fname}");
-                Console.WriteLine($"Last Name: {e.Lname}");
-                Console.WriteLine($"Wage: {e.Wage}");
-                Console.WriteLine($"LoggedHours: {e.LoggedHours}");
-                Console.WriteLine("----------------------------");
-                Console.WriteLine($"Salary: ${salary}");
-                Console.WriteLine($"Deductble Tax ({Employee.TAX * 100}%) Amount: ${taxAmount}");
-                Console.WriteLine($"netSalary: {netSalary}\n");
+                Console.WriteLine(e.PrintSlip());
             }
         }
     }
