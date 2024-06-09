@@ -74,6 +74,8 @@ string stringValue3 = "999999999999999999";
 // Console.WriteLine(number2); // error in the run-time [Overflow Exception Error]
 // in this case we must check
 
+int n = 'c';
+Console.WriteLine("ASCII: " + n);
 
 // TryParse
 if(int.TryParse(stringValue3, out int n))
@@ -132,3 +134,5 @@ Console.WriteLine("----------------");
 var hexx = "BE2";
 int num2 = Int32.Parse(hexx, System.Globalization.NumberStyles.HexNumber);
 Console.WriteLine(num2);
+
+// Convert.ToInt32() => make approximation when conversion 
