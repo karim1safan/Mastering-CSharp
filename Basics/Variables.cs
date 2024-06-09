@@ -37,6 +37,11 @@ Console.WriteLine(s4); // karim safan
 // Value Type has a limit, but Reference Type doesn't
 Console.WriteLine($"int: [{int.MinValue} ~ {int.MaxValue}]");
 
+// to know the default value of the data type 
+Console.WriteLine("Default Value of Int: " + default(int));
+Console.WriteLine("Default Value of Boolean: " + default(bool));
+Console.WriteLine("Default Value of String: " + default(string));
+
 // var => Resolve at compile-time
 var s5 = "karim";
 // f, d, m, u, l, ul => is called litteral suffix
