@@ -10,6 +10,15 @@
     - Ternary Operator
 */
 
+// Misc. Operators [sizeof(), typeof(), &, *, ?:, is, as]
+
+// sizeof(datatype)
+Console.WriteLine("Size Of Int: " + sizeof(int) + " Bytes = " + sizeof(int) * 8 + " Bits");
+
+// typeof(datatype)
+Type value = typeof(string);
+Console.WriteLine("Type of the value is: " + value);
+
 bool isVip = true;
 // bool isVip2 = 1; // ERROR
 
